@@ -1,0 +1,1 @@
+# DIAT-Separable-CNN-ECA-HARNet-A-Lightweight-and-Explainable-Model-for-Efficient-HAR
