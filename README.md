@@ -11,7 +11,9 @@ cite:
   3) ianping Zhu, Haiquan Chen and Wenbin Ye. A Hybrid CNN–LSTM Network for the Classification of Human Activities Based on Micro-Doppler Radar. IEEE Access, vol. 8, pp. 24713-24720, 2020. DOI: https://doi.org/10.1109/ACCESS.2020.2971064
 
 II) DIAT- μ RadHAR dataset:https://ieee-dataport.org/documents/diat-%CE%BCradhar-radar-micro-doppler-signature-dataset-human-suspicious-activity-recognition
+
 pip install tensorflow keras numpy pandas matplotlib
+
 Run the Notebook:
 
 Preprocessing the Data
@@ -30,7 +32,9 @@ Evaluate the Model
  2. Compute and display performance metrics (accuracy, precision, recall, F1 score) for each dataset.
  
 Explainable AI Techniques
+
   Feature Maps Visualization:
+  
     1.Visualize intermediate feature maps from the CNN layers to understand the learned representations.
     2.Plot the feature maps at different layers to show how the model extracts features at various levels.
   GradCAM Visualization:
@@ -39,6 +43,7 @@ Explainable AI Techniques
     3.Overlay the heatmap on the input image to gain insights into the model’s focus during prediction. 
 
 Review Results
+
  1. Compare the evaluation metrics across all datasets.
  2. Assess the model’s performance and effectiveness.
  3. Review the feature maps and GradCAM results for interpretability of the model’s decision-making process.    
