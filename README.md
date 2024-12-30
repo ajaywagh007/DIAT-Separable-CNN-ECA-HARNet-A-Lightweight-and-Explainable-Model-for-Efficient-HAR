@@ -33,14 +33,16 @@ Evaluate the Model
  
 Explainable AI Techniques
 
-  Feature Maps Visualization:
+Feature Maps Visualization:
   
-    1.Visualize intermediate feature maps from the CNN layers to understand the learned representations.
-    2.Plot the feature maps at different layers to show how the model extracts features at various levels.
-  GradCAM Visualization:
-    1.Apply GradCAM (Gradient-weighted Class Activation Mapping) to generate heatmaps for model predictions.
-    2.Visualize the importance of different regions of the input image that contributed to the model’s decision.
-    3.Overlay the heatmap on the input image to gain insights into the model’s focus during prediction. 
+    1. Visualize intermediate feature maps from the CNN layers to understand the learned representations.
+    2. Plot the feature maps at different layers to show how the model extracts features at various levels.
+    
+GradCAM Visualization:
+
+    1. Apply GradCAM (Gradient-weighted Class Activation Mapping) to generate heatmaps for model predictions.
+    2. Visualize the importance of different regions of the input image that contributed to the model’s decision.
+    3. Overlay the heatmap on the input image to gain insights into the model’s focus during prediction. 
 
 Review Results
 
